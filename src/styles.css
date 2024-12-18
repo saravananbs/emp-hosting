@@ -1,0 +1,140 @@
+/* General Body Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #141e30, #243b55); /* Deep gradient background */
+    color: #e0e0e0; /* Light gray text */
+    margin: 0;
+    padding: 20px;
+  }
+  
+  /* Headings */
+  h1, h2 {
+    text-align: center;
+    color: #66fcf1; /* Neon cyan for headings */
+    margin-bottom: 20px;
+    text-shadow: 0px 2px 5px rgba(102, 252, 241, 0.6); /* Glow effect */
+  }
+  
+  /* Form Styling */
+  form {
+    background: #1f2833; /* Dark card background */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
+    max-width: 500px;
+    margin: 0 auto;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  form:hover {
+    transform: scale(1.02); /* Slight hover zoom */
+  }
+  
+  form label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+    color: #45a29e; /* Muted cyan labels */
+  }
+  
+  form input,
+  form select,
+  form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #66fcf1;
+    border-radius: 5px;
+    font-size: 16px;
+    background: #0b0c10; /* Deep dark input background */
+    color: #c5c6c7; /* Light text */
+  }
+  
+  form input:focus,
+  form select:focus {
+    border-color: #45a29e; /* Focused border */
+    outline: none;
+  }
+  
+  form button {
+    background: linear-gradient(135deg, #45a29e, #66fcf1); /* Neon gradient buttons */
+    color: #0b0c10; /* Dark text for contrast */
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  
+  form button:hover {
+    background: linear-gradient(135deg, #66fcf1, #45a29e);
+    transform: scale(1.05); /* Playful interaction */
+  }
+  
+  /* Table Styling */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: #1f2833; /* Dark table background */
+    color: #c5c6c7;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  table th, table td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  table th {
+    background: #45a29e; /* Highlighted neon headers */
+    color: #0b0c10;
+  }
+  
+  table tr:nth-child(even) {
+    background: #0b0c10; /* Alternate row background */
+  }
+  
+  table tr:hover {
+    background: #66fcf1; /* Hover effect */
+    color: #0b0c10; /* Contrast text on hover */
+  }
+  
+  /* Buttons inside Table */
+  button {
+    border-radius: 5px;
+    background: #66fcf1;
+    color: #0b0c10;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, background 0.3s ease;
+  }
+  
+  button:hover {
+    transform: scale(1.1);
+    background: #45a29e;
+  }
+  
+  /* Paragraphs */
+  p {
+    text-align: center;
+    font-size: 16px;
+    color: #c5c6c7;
+  }
+  
+  /* Scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(135deg, #66fcf1, #45a29e); /* Neon scrollbar */
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(135deg, #45a29e, #66fcf1);
+  }
+  
